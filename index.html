@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ping Pong</title>
+</head>
+<style >
+body {
+	background: linear-gradient(to bottom right, #9F0893, white);
+	border-color: black;
+	border: solid;
+	margin-top: -20px;
+	
+}
+canvas {
+	border : solid;
+	background-color:black;
+	margin-top: -250px;
+	margin-left: 400px;
+
+}
+.indicaciones{
+	background-color: violet;
+	padding-left:20px;
+	width: 40%;
+}
+.titulo{
+	margin-top: 0;
+	padding-left:110px;
+}
+
+
+</style>
+<body>
+	<div >
+		<div class="titulo"><h1 >Ping pong</h1><br></div>
+		<div class="indicaciones">
+		<h1>Indicaciones</h1>
+		<p>1. Para iniciar el juego debe pulsar la tecla espaciadora <br>
+		   2. Numero de jugadores: maximo 2.<br>
+		   3. El jugador 1 podra mover la barra con latecla flecha  <br>arriba y flecha 
+		   abajo. (Barra del lado derecho)<br>
+		   4. El jugador dos con las teclas W y S.<br>(Barra del lado izquierdo)<br>
+		</p>
+		</div>
+	</div>
+	
+	<center><canvas id="canvas"></canvas></center>
+	<br><br>
+	<script src="main.js"></script>
+
+</body>
+
+</html>
